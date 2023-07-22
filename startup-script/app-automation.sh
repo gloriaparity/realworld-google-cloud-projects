@@ -33,7 +33,7 @@ sudo rm -f latest.tar.gz
 
 # Configure Apache
 sudo rm -rf /etc/apache2/sites-enabled/000-default.conf
-sudo wget https://raw.githubusercontent.com/awanmbandi/google-cloud-projects/main/apache-config/000-default.conf -P /etc/apache2/sites-enabled/
+sudo wget https://github.com/gloriaparity/realworld-google-cloud-projects/edit/main/database-config/wp-config.php -P /etc/apache2/sites-enabled/
 
 # Restart the Apache2 Service
 sudo service apache2 restart
