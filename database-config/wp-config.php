@@ -26,7 +26,7 @@ define( 'DB_NAME', 'wordpessdb' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'admin123' );
+define( 'DB_PASSWORD', 'admin' );
 
 /** Database hostname */
 define( 'DB_HOST', '34.173.176.209' );
